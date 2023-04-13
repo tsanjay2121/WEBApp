@@ -1,0 +1,14 @@
+.section1 .A1{
+    background: #060303;
+    height: 100vh;
+    padding: 20px;
+    padding-left: 80px;
+}
+.A2{
+    background-image: url(../images/mukesh\ h7.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    border-radius: 50%;}
+.A3{ bakccolor: white;}
+
