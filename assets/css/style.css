@@ -5,6 +5,7 @@
     --color2:#f7d00b;
     --color3:#bbe34d;
     --color4:#75d2e3;
+    text-transform: capitalize;
 }
 body{
     /* user-select: none; */
@@ -172,7 +173,10 @@ border-radius: 50%; color: #0483f9;
     transition: all .6s;
 }
 
-.sec8 .img1:hover {
+.sec8 .img1:hover,
+.sec8 .img2:hover,
+.sec8 .img3:hover,
+.sec8 .img4:hover {
     transform: scale(1.2);
     cursor: pointer;
     transition: all .6s;
@@ -181,14 +185,17 @@ border-radius: 50%; color: #0483f9;
 
 .sec8 .img2 {
     background: url(../images/nita\ h7.jpg);
+    transition: all .6s;
 }
 
 .sec8 .img3 {
     background: url(../images/isha\ h7.jpg);
+    transition: all .6s;
 }
 
 .sec8 .img4 {
     background: url(../images/mukesh\ h7.jpg);
+    transition: all .6s;
 }
 .fa-facebook-f{color: #0483f9;}
 .fa-google-plus-g{color: red;}
@@ -332,10 +339,7 @@ animation: coder 10s infinite;}
     display: block;
   }
 
-  .sec8 .img1 {
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+  
 
 .sec8 .cc3 {
     text-align: center;
