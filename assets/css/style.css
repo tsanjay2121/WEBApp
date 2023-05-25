@@ -1,14 +1,18 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Rubik+Vinyl&display=swap'); */
+ */@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Rubik+Vinyl&display=swap'); 
 * {
     --color1:#f66422;
     --color2:#f7d00b;
     --color3:#bbe34d;
     --color4:#75d2e3;
     text-transform: capitalize;
-}
+}  
 body{
-    /* user-select: none; */
+    --color1:#f66422;
+    --color2:#f7d00b;
+    --color3:#bbe34d;
+    --color4:#75d2e3;
+    text-transform: capitalize;
 }
 .sec1 .row{height: 100px;width: 200px;margin-left: -15px;}
 .sec1 #s1{background-image: url(../images/s1i.jpg);
@@ -32,15 +36,16 @@ background-position: top;}
 
 .sec2 button {background-color: #f7b103;
 border: #f7b103;
-color: #fff;
+color: #ffffffe6;
 width: 100px;height: 30px;}
 
 
 
 .sec3 #s3a { background-color: var(--color1);
     text-align: center;
-    color: #fff; 
+    color:#fff; 
     z-index: 5;
+   
 }
 .sec3 #s3b { background-color:var(--color4);
 text-align: center;
@@ -282,9 +287,8 @@ z-index: 5;
 
 
 
-/* .sec.map{border-color: red} */
-
-/*.animation div{background-image: url(../images/mountain1.jpg);
+.sec.map{border-color: red} */
+.animation div{background-image: url(../images/mountain1.jpg);
     background-position: center;
 height: 200px;
 width: 200px; 
@@ -292,8 +296,8 @@ margin-left: 50px;
 animation: coder 10s infinite;}
 
 @keyframes coder {
-    from margin-left 10
-
+    max: width 720px;
+    margin-bottom ;
 }*/
 
 
@@ -305,13 +309,20 @@ animation: coder 10s infinite;}
     color: red;
 }
 
-.fa-location-dot {
-    color: blue;
+.sec_mynav .d-flex:hover {
+    cursor: pointer;
 }
+
+.sec_mynav .d-flex:hover .fa-location-dot,
+.sec_mynav .d-flex:hover .fa-envelope {
+   
+    color: blue;
+} 
+
 .navbar-brand {
     
     font-family: 'Caveat', cursive;
-   /*  font-family: 'Rubik Vinyl', cursive; */
+    font-family: 'Rubik Vinyl', cursive;
 }
 
 .fa-location-dot,

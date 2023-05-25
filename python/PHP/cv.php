@@ -18,9 +18,8 @@
             <div class="a3"></div>
         </div>
     </div>
-    
-</body>
-    <script src="./assets/js/cv.js"></script>
+
+    <script src="./cv.js"></script>
     <script src="./assets/js/all.min.js"></script>
-    
+</body> 
 </html>

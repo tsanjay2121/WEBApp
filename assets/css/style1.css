@@ -1,6 +1,33 @@
- .c1{ 
-   background-color: red;
-height: 400px 
+.seca {background-color:hsl(272, 18%, 31%) ;
+  
+height: 100px;
+max-width: ;
+margin: auto;
+border-top:#fff ;
+
+border-bottom-left-radius: 20%;
+border-bottom-right-radius:20% ;
+border-color: #9dccd7;
+color: #fff;
+
+
+
+
 }
-.c3{background-color: blue;
-height: 400px}
+
+.aa{background-image: url(../images/studing.jpg);
+height: 600px;
+width: 600px;
+border-radius: 40%;
+margin-top: 50px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin-left: -200px;
+opacity: #9ecdd8;
+
+}
+button{background-color: grey;
+color: white;
+border-radius:10%;}
+ fa-instagram{ height: 10px;}

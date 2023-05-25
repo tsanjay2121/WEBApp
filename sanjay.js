@@ -34,15 +34,7 @@ d=1
 while(d<=10) {
     e=1
     while(e<=10){
-        document.write( d,'x', e,'=', d*e, )
-        e++
-    
-    }
-    d++
-    document.write('<br>')
-   
-
-}
+        documen
 // f=1
 // while (f<=20) {
 //     document.write(f, 'x', g, '=, f*g,)
