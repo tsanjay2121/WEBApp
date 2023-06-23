@@ -15,19 +15,27 @@ color: #fff;
 
 }
 
-.aa{background-image: url(../images/studing.jpg);
-height: 600px;
-width: 600px;
-border-radius: 40%;
-margin-top: 50px;
+.aa{background-color: black;
+height: 400px;
+width: 400px;
+transform: rotateX('45deg') rotateX('45 deg');
+margin-top: 100px;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: -200px;
-opacity: #9ecdd8;
+opacity: #05c7f3;
+
 
 }
 button{background-color: grey;
 color: white;
 border-radius:10%;}
  fa-instagram{ height: 10px;}
+
+ @keyframes {
+    {
+     from :left
+     to :right   
+    }
+    }
